@@ -1,5 +1,12 @@
 # I am going to use dictionary (a data structure we learned in the lecture)
 # Please make sure you understand it before reading the solution.
+def sort_words_by_frequency(path):
+    # Getting the frequencies of each word in 
+    frequencies = count_word_frequency(path)
+
+    # Using Bubble sort to sort, read about it.
+
+
 def count_word_frequency(path):
     with open(path, 'r') as f:
         # Creating a new empty dictionary
