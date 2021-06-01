@@ -23,17 +23,17 @@ class School:
             print('Student name : {} height : {}'.format(student.my_name, student.my_my_height))
 
 
+print('hello', 'world')
 # Creating new object
-# ethan = Human('Ethan', 178)
-# ethan.print_my_attributes()
-#
-# ofek = Human('Ofek', 185)
-# ofek.print_my_attributes()
+ethan = Human('Ethan', 178)
+ethan.print_my_attributes()
 
+ofek = Human('Ofek', 185)
+ofek.print_my_attributes()
 
 # Creating school and using it.
-school = School()
-school.add_student('Hadas', 170)
-school.add_student('Israel', 168)
-school.add_student('Itzhak', 178)
-school.print_all_students()
+# school = School()
+# school.add_student('Hadas', 170)
+# school.add_student('Israel', 168)
+# school.add_student('Itzhak', 178)
+# school.print_all_students()
